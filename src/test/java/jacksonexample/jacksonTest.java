@@ -55,9 +55,9 @@ public class JacksonTest {
         }
         ObjectMapper objectMapper = new ObjectMapper();
 
-        Wrapper wrapper = null;
+        Wrapper1 wrapper = null;
         try {
-            wrapper = objectMapper.readValue(json, Wrapper.class);
+            wrapper = objectMapper.readValue(json, Wrapper1.class);
         } catch (IOException e) {
             e.printStackTrace();
         }

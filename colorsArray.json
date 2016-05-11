@@ -20,5 +20,50 @@
     {
       "colorName":"black"
     }
+  ],
+  "colorsArray1":[{
+    "colorName":"red"
+  },
+    {
+      "colorName":"green"
+    },
+    {
+      "colorName":"blue"
+    },
+    {
+      "colorName":"cyan"
+    },
+    {
+      "colorName":"magenta"
+    },
+    {
+      "colorName":"yellow"
+    },
+    {
+      "colorName":"black"
+    }
+  ],
+  "colorsArray1":[{
+    "colorName":"red"
+  },
+    {
+      "colorName":"green"
+    },
+    {
+      "colorName":"blue"
+    },
+    {
+      "colorName":"cyan"
+    },
+    {
+      "colorName":"magenta"
+    },
+    {
+      "colorName":"yellow"
+    },
+    {
+      "colorName":"black"
+    }
   ]
+
 }

@@ -2,6 +2,7 @@ package jacksonexamples;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.util.ArrayList;
@@ -14,15 +15,15 @@ import java.util.Map;
  */
 public class Wrapper {
 
-    private Map<String, List<POJO>> pojoList = new HashMap<String, List<POJO>>();
+    private List<Map<String, List<POJO>>> colorsArray1 = new ArrayList<Map<String, List<POJO>>>() ;
 
     @JsonAnyGetter
-    public Map<String, List<POJO>> getPojoList() {
-        return pojoList;
+    public List<Map<String, List<POJO>>> getColorsArray1() {
+        return colorsArray1;
     }
 
     @JsonAnySetter
-    public void setPojoList(Map<String, List<POJO>> pojoList) {
-        this.pojoList = pojoList;
+    public void setColorsArray1(List<Map<String, List<POJO>>> colorsArray1) {
+        this.colorsArray1 = colorsArray1;
     }
 }
